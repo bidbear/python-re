@@ -9,6 +9,6 @@
 | $ | 匹配字符串结尾 | \W | 匹配非字母数字，等价于[^A-Za-z0-9] |
 | () | 匹配括号内的表达式，也表示一个组 | [] | 用来表示一组字符 |
 ## 常用的三个方法
-1 . `re.match(pattern,string,flags=0)` 其中pattern是正则表达式，string为要匹配的字符串，flags用来控制匹配方式。从起始位置匹配。匹配不成功返回none
-2 . `re.search(pattern,string)`扫描整个字符串，返回第一个成功的匹配
-3 . `re.findall(pattren,string)`返回所有能找到的匹配，返回list
+1. `re.match(pattern,string,flags=0)` 其中pattern是正则表达式，string为要匹配的字符串，flags用来控制匹配方式。从起始位置匹配。匹配不成功返回none
+2. `re.search(pattern,string)`扫描整个字符串，返回第一个成功的匹配
+3. `re.findall(pattren,string)`返回所有能找到的匹配，返回list
